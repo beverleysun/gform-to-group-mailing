@@ -1,1 +1,1 @@
-# gform-to-group-mailing
+# Google Form to Mailing List
