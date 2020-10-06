@@ -19,12 +19,8 @@ This requires the sheet to be linked to a Google Form. It will automatically add
 3. Enable AdminDirectory in the script editor: *Resources > Advanced Google Services > Admin Directory API*
 4. Change the const variables to your info
 
-**If you're using `all-reponses.js`:**
+**If you're using `all-reponses.js`:** Select the `addMembersFromSheet` function, and click run
 
-Select the `addMembersFromSheet` function, and click run
-<br></br>
-**If you're using `new-responses.js`:**
-
-Add a new trigger to the script:
+**If you're using `new-responses.js`:** Add a new trigger to the script
   <img src="./img/trigger-all-instructions.jpg" width=100%/>
   
