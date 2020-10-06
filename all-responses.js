@@ -19,7 +19,7 @@ function addMembersFromSheet() {
 
 function addMember(email, group) {
   var hasMember = group.hasUser(email);
-  Utilities.sleep(300);
+  Utilities.sleep(1000);
 
   if (!hasMember) {
     var newMember = {
