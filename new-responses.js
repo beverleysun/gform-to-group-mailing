@@ -18,7 +18,7 @@ function addMember(email, group) {
   var hasMember = group.hasUser(email);
 
   if (!hasMember) {
-    var newMember = { email: email, role: "MEMBER", delivery_settings: "NONE" };
+    var newMember = { email: email, role: "MEMBER", delivery_settings: "ALL_MAIL" };
     AdminDirectory.Members.insert(newMember, groupEmail);
   }
 }
