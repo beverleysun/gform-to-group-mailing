@@ -25,7 +25,7 @@ function addMember(email, group) {
     var newMember = {
       email: email,
       role: "MEMBER",
-      delivery_settings: "NONE",
+      delivery_settings: "ALL_MAIL",
     };
     AdminDirectory.Members.insert(newMember, groupEmail);
   }
